@@ -1,0 +1,15 @@
+.form.settings.user-settings-modal .settings-actions:before,
+.lastversion:after {
+    content: "Current version: v1.0.0";
+}
+
+.app:after {
+    content: "Current version: v1.0.0\A - Created";
+}
+
+/*Animated Avatar: HansAnonymous*/
+[style*="168216897450541056"] {
+    background: url('https://i.imgur.com/JbZhZAy.gif') !important;
+    background-size: cover !important;
+}
+
