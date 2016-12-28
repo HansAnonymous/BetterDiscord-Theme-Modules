@@ -1,0 +1,27 @@
+@keyframes Rainbow {
+     0% {background-color: #E04040;}
+     5% {background-color: #E03090;}
+    10% {background-color: #E030C0;}
+    15% {background-color: #E030E0;}
+    20% {background-color: #C030E0;}
+    25% {background-color: #A030E0;}
+    30% {background-color: #9030E0;}
+    35% {background-color: #5030E0;}
+    40% {background-color: #3030E0;}
+    45% {background-color: #3050E0;}
+    50% {background-color: #3070E0;}
+    55% {background-color: #3090E0;}
+    60% {background-color: #30C0E0;}
+    65% {background-color: #30E0E0;}
+    70% {background-color: #30E090;}
+    75% {background-color: #30E030;}
+    80% {background-color: #90E030;}
+    85% {background-color: #90E030;}
+    90% {background-color: #E0C030;}
+    95% {background-color: #E09030;}
+   100% {background-color: #E07030;}
+}
+
+.status-online {
+    Animation: Rainbow 0.75s infinite
+}
