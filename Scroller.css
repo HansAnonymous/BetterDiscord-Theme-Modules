@@ -1,0 +1,19 @@
+.chat .scroller-wrap .scroller::-webkit-scrollbar-thumb {
+    border: 3px solid rgba(250, 250, 250, 0) !important;
+    background-color: rgba(38,40,44,.9) !important;
+}
+.chat .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    border: 2px solid rgba(0, 0, 0, 0) !important;
+    border-left: 4px solid rgba(0, 0, 0, 0) !important;
+    border-right: 4px solid rgba(0, 0, 0, 0) !important;
+    border-radius: 50%;
+    background-color: rgba(234, 237, 240, .05) !important;
+}
+
+.message-group {
+   padding-bottom: 18px;
+   padding-top: 17px;
+   padding-left: 10px;
+   padding-right: 10px;
+   text-shadow: 1px 2px 5px #000000;
+}
