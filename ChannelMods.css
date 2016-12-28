@@ -1,0 +1,8 @@
+.guild-channels .channel-text .channel-name:before{
+    content: "<" !important;
+    display: inline !important;
+}
+.guild-channels .channel-text .channel-name:after{
+    content: " >" !important;
+    display: inline !important;
+}
