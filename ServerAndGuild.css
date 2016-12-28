@@ -1,0 +1,141 @@
+.guild-header ul li:hover a {
+    background-color: hsla(0, 0%, 0%, 0.78);
+}
+.server-icon {
+    border-radius: 30px;
+}
+.server-info span {
+    color: #fff;
+}
+.server-row {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.server-row:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.server-info button {
+    border-radius: 5px;
+    background-color: var(--main-color);
+}
+.server-info button:hover {
+    background-color: var(--hover-color);
+}
+.guilds-wrapper .guilds .guild .guild-inner {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+.guilds-wrapper .guilds .guild .guild-inner:active {
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+}
+.guilds-wrapper .guilds-add {
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+.guilds-wrapper .guilds-add:active {
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+}
+.user-settings-security.show-art {
+    background: transparent;
+}
+.guild-channels .channel-voice-states li .avatar-small {
+    border: none;
+}
+.guild-channels .channel-voice-states li .avatar-small {
+    margin: 4px 7px 4px 4px;
+}
+.guild-channels .channel-voice-states li.speaking .avatar-small {
+    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.5) !important;
+    border: 2px solid var(--main-color) !important;
+    margin: 2px 5px 2px 2px;
+}
+.channel-members .member {
+    -webkit-transition: -webkit-transform .1s ease-in-out;
+    transition: -webkit-transform .1s ease-in-out;
+    transition: transform .1s ease-in-out;
+    transition: transform .1s ease-in-out, -webkit-transform .1s ease-in-out;
+}
+.channel-members .member:active {
+    -webkit-transform: scale(.9);
+    transform: scale(.9);
+}
+.guild-channels .icon+.icon {
+    margin-left: 3px;
+}
+.guilds-wrapper .guilds .guild.audio .guild-inner:after {
+    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/volume_up.svg) !important;
+    background-position: center;
+    background-color: #000;
+    opacity: .7;
+}
+.guild-channels .icon-instant-invite {
+    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/share.svg) !important;
+    background-position: center;
+    background-size: 110%;
+    margin-top: 1px;
+}
+.guilds-wrapper .guild-separator:after,
+.guilds-wrapper .btn-download-apps:after {
+    background-color: rgba(255, 255, 255, .2);
+}
+.guilds-add {
+    background-image: none !important;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+.guilds-add:hover {
+    border-color: var(--main-color) !important;
+    -webkit-animation: pulsate-border 1s infinite alternate;
+    animation: pulsate-border 1s infinite alternate;
+}
+.guilds-wrapper .guilds-add:before {
+    content: "";
+    background-color: #333539;
+    position: absolute;
+    left: 47%;
+    top: 24%;
+    height: 50%;
+    width: 2px;
+    border-radius: 3px;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+.guilds-wrapper .guilds-add:after {
+    content: "";
+    background-color: #333539;
+    position: absolute;
+    left: 24%;
+    top: 47%;
+    height: 2px;
+    width: 50%;
+    border-radius: 3px;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+.guilds-wrapper .guilds-add:hover:before,
+.guilds-wrapper .guilds-add:hover:after {
+    background-color: var(--main-color) !important;
+    -webkit-animation: pulsate-color 1s infinite alternate;
+    animation: pulsate-color 1s infinite alternate;
+}
+.guild-channels .icon-lock {
+    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/lock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18px;
+    opacity: .3 !important;
+}
+.guild-channels,
+.private-channels .scroller {
+    -webkit-mask-image: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 1) 5%, rgba(0, 0, 0, 1) 95%, transparent 100%)
+}
+.guild-channels .channel.sorting:after {
+    border-color: var(--main-color);
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+    -webkit-animation: pulsate-border 1s infinite alternate;
+    animation: pulsate-border 1s infinite alternate;
+}
