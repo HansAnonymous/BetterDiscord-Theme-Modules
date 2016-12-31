@@ -75,7 +75,15 @@ body {
 
 /*buttons*/
 .account .btn, 
-.account .btn:active{
+.account .btn:active,
+#voice-connection,
+.btn-info,
+.btn-disconnect,
+.btn-mute,
+.btn-deafen,
+.btn-settings  {
+    background: transparent !important;
+}{
     background: rgba(100,100,100,0.2);
 }
 
