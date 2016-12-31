@@ -94,6 +94,7 @@ body {
 .guilds-wrapper .guilds-add {
     background: rgba(0,0,0,0.6);
 }
-.messages-wrapper .messages .divider span {
+.messages-wrapper .messages .divider span,
+.search-bar{
     background: transparent!important;
 }
