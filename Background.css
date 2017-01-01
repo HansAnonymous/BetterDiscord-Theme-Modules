@@ -1,0 +1,11 @@
+body::after {
+  content: "";
+  background: url(https://4.bp.blogspot.com/-d0SoMDIO1F8/TiSpUT7MguI/AAAAAAAAKMQ/YGuw06nzNDk/s1600/Cool%2Bblue%2Bwallpaper%2Bbackgrounds-2.png);
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
