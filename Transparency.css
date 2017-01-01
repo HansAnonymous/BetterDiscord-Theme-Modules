@@ -1,10 +1,8 @@
-
-/*standard 50% transparency on everything, change to your liking.*/
 body {
     background-color: rgba(0,0,0, 0.5);
 }
 
-/*guild wrapper*/
+/*guilds wrapper*/
 .guilds-wrapper {
     background-color: rgba(0,0,0,0.5)!important;
 }
