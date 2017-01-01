@@ -1,8 +1,9 @@
+/*standard 50% transparency on everything, change to your liking.*/
 body {
     background-color: rgba(0,0,0, 0.5);
 }
 
-/*guilds wrapper*/
+/*guild wrapper*/
 .guilds-wrapper {
     background-color: rgba(0,0,0,0.5)!important;
 }
@@ -17,7 +18,7 @@ body {
 .guild-channels, 
 .account,
 .private-channels, 
-.search-bar, 
+.search-bar,
 #voice-connection {
     background-color: transparent;
 }
@@ -76,8 +77,8 @@ body {
 
 /*buttons*/
 .account .btn, 
-.account .btn:active, 
-#voice-connection .btn, 
+.account .btn:active,
+#voice-connection .btn,
 #voice-connection .btn:active {
     background: rgba(100,100,100,0.2);
 }
@@ -94,4 +95,4 @@ body {
 }
 .search .search-bar {
     background: rgba(255, 255, 255, 0.15)!important;
-}
+} 
