@@ -1,6 +1,8 @@
 body::after {
   content: "";
   background: url(https://4.bp.blogspot.com/-d0SoMDIO1F8/TiSpUT7MguI/AAAAAAAAKMQ/YGuw06nzNDk/s1600/Cool%2Bblue%2Bwallpaper%2Bbackgrounds-2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   opacity: 0.6;
   top: 0;
   left: 0;
